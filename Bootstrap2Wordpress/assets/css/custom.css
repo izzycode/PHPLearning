@@ -56,7 +56,39 @@ button {
 img {
   max-width: 100%;
 }
-/*=============  GLOBAL =============*/
+
+modal-content {
+  background: url('..img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+  background: #ccc;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  line-height: 42px;
+  text-align: center;
+  padding: 0;
+  margin: 0 5px 20px 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: white;
+}
+
+.badge.social.twitter:hover {
+  background: #55acee;
+}
+
+.badge.social.facebook:hover {
+  background: #3c5998;
+}
+
+.badge.social.gplus:hover {
+  background: #db4b39;
+}
+
+/*=============  HERO =============*/
 #hero {
   background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
   min-height: 500px;
@@ -161,6 +193,22 @@ section h3 {
   color: white;
   text-align: center;
 }
+
+#project-features {
+  text-align: center;
+}
+
+#featurette {
+  background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+#instructor {
+  background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
 
 /*=============  CUSTOM ICON SPRITES =============*/
 i.ci {
