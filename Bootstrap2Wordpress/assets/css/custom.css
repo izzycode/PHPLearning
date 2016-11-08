@@ -88,7 +88,25 @@ modal-content {
   background: #db4b39;
 }
 
-/*=============  HERO =============*/
+blockquote {
+  padding: 0;
+  border: none;
+  font-size: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+blockquote:before {
+  display: none;
+}
+
+
+/*============= HERO =============*/
 #hero {
   background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
   min-height: 500px;
@@ -240,6 +258,19 @@ section h3 {
   font-size: 20px;
   font-weight: normal;
   }
+
+#kudos {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+.testimonial img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
 /*=============  CUSTOM ICON SPRITES =============*/
 i.ci {
   display: inline-block;
