@@ -48,9 +48,27 @@ button {
   font-weight: bold;
 }
 
+.btn {
+  font-weight: bold;
+}
+
+button.btn:focus {
+  outline: none !important;
+}
+
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
+}
+
+.btn-success {
+  background: #79b044;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #6a9b3d;
+  border-color: #6a9b3d;
 }
 
 img {
@@ -271,6 +289,27 @@ section h3 {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
+
+#signup {
+  text-align: center;
+  background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+  background-size: cover;
+  color: white;
+  padding: 140px 0;
+}
+
+#signup h2 {
+  font-weight: normal;
+}
+
+#signup strong {
+  border-bottom:  3px solid #dd5638;
+}
+
+#signup .btn {
+  font-size: 24px;
+}
+
 /*=============  CUSTOM ICON SPRITES =============*/
 i.ci {
   display: inline-block;
